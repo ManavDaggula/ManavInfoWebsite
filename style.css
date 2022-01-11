@@ -20,3 +20,12 @@ header>p{
     font-size: 25px;
     color: aliceblue;
 }
+.contact-menu{
+    background-color:brown;
+}
+
+.contact-menu>table>tbody>tr>td>a>img{
+    width:50px;
+    height:50px;
+    object-fit:cover;
+}
