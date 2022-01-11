@@ -1,0 +1,22 @@
+header{
+    background-color: rgb(55, 109, 153);
+    display: flex;
+    padding: 10px;
+}
+#myDp{
+    border-radius: 50%;
+    width:70px;
+    height: 70px;
+    object-fit: cover;
+    padding:10px;
+}
+#myDp:hover{
+    width: 120px;
+    height: 120px;
+    transition: width 0.4s ease-out, height 0.4s ease-out;
+    transition-delay: 0.2s;
+}
+header>p{
+    font-size: 25px;
+    color: aliceblue;
+}
